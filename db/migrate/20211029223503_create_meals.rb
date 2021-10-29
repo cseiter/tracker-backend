@@ -1,7 +1,7 @@
 class CreateMeals < ActiveRecord::Migration[6.1]
   def change
     create_table :meals do |t|
-      t.string :type
+      t.string :meal_type
       t.string :food
       t.integer :ounces
       t.integer :protein
