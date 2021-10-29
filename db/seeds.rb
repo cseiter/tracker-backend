@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Meal.create!(type: 'breakfast', food:'yogurt',ounces:4,protein:4,calories:45)
+Meal.create!(meal_type: 'breakfast', food:'yogurt',ounces:4,protein:4,calories:45)
